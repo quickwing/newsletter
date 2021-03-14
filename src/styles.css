@@ -1,4 +1,21 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  width: 98vw;
+  height: 100vh;
+  display: flex;
+  overflow-x: hidden;
+  margin: -10;
+}
+
+.background {
+  width: 100%;
+  height: auto%;
+  justify-content: center;
+  position: fixed;
+  z-index: -1;
+}
+
+.pagebody {
+  margin: 2em;
+  margin-top: 50vh;
 }
